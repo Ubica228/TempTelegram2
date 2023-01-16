@@ -14,7 +14,7 @@ body{
     font-family:'Roboto', sans-serif;
     font-weight: bold;
     font-size: 21px;
-    margin-top: 35px;
+    margin-top: 55px;
     margin-bottom: 5px;
     width: 100%;
 }
@@ -22,7 +22,6 @@ body{
     color: rgb(102, 102, 243);
 }
 #Logo{
-    margin-top: 25%;
     width: 370px;
     height: 200px;
 }
