@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(48, 46, 46);
 }
 .container{
     display: flex;
@@ -22,13 +22,14 @@ body{
     color: rgb(102, 102, 243);
 }
 #Logo{
+    margin-top: 25%;
     width: 370px;
     height: 200px;
 }
 #send-button{
     margin-top: 10px;
     background-color: #8971df;
-    height: 35px;
+    height: 45px;
     border-radius: 7px;
     border: 2px;
     color: #fdf9ff;
@@ -43,10 +44,10 @@ body{
 }
 #message{
     margin-top: 10px;
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(44, 42, 42);
     display: block;
   width: 130%;
-  height: calc(1.65rem + 2px);
+  height: calc(1.80rem + 2px);
   padding: 0.375rem 0.75rem;
   font-family:'Roboto', sans-serif;
   line-height: 1.5;
