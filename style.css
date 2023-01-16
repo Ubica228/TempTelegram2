@@ -39,7 +39,11 @@ body{
     width: 140%
 }
 #send-button:hover{
-    background-color: #7967bc; /* Green */
+    background-color: #7967bc; 
+}
+#send-button:active{
+    background-color: #5c4f90; 
+    color: #a19fa1;
 }
 #message{
     margin-top: 10px;
