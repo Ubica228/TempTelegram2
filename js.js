@@ -16,6 +16,9 @@ function CheckIf(){
 
 send_btn.addEventListener('click',function(){
     console.log('as');
-    tg.sendData(phone.value*2);
+    var phn = phone.value*2;
+    var phn = phn.toString();
+    console.log(phn);
+    tg.sendData(phn);
     
 });
